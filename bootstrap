@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+  <title>Bootstrap </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.centered{font-family:poppins;font-size:50px;color:white;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);}
+
+</style>
+</head>
+<body>
+<div  class="container-fluid " style="height:20px;"> 
+</div>
+<nav class="navbar navbar-inverse  ">
+  	<div class="container-fluid">
+    		<div class="navbar-header">
+     
+     			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+        			<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>                        
+      			</button>
+
+    			<a class="navbar-brand" href="#">Skin Trust Club</a>
+    		</div>
+    
+
+     		<div class="collapse navbar-collapse" id="myNavbar">
+     			<ul class="nav navbar-nav">
+        			<li class="active"><a href="#">Home</a></li>
+                                                <li><a href="#">Order Test</a></li>
+        			<li><a href="#">App</a></li>
+        			<li class="dropdown">
+          				<a class="dropdown-toggle" data-toggle="dropdown" href="#">countries <span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            					<li><a href="#">UK</a></li>
+            					<li><a href="#">US</a></li>
+            					<li><a href="#">Ireland</a></li>
+          				</ul>
+        			</li>
+        			
+      			</ul>
+      			
+    		</div>
+  	</div>
+</nav>
+  
+<div class="container-fluid" >
+  <img src="sk3.jpeg" style="width:100%;height:70%;">
+<div class="centered" ><b>GET TO KNOW YOUR SKIN</b><br>
+<button class="btn btn-white" type="button" style="color:black;font-size:20;" ><a href="form boot.html">Order a test</a></button>
+</div>
+</div>
+<br><br>
+<div class="container-fluid  mt-3">
+	<div class="row" style="font-size:30px;color:grey;text-align:center;">AS SEEN IN</div>
+<br>
+<div class="row" stlye="font-size:20px;color:grey;">
+<div class="col-md-4" ><img src="sk4.jpeg"></div>
+<div class="col-md-4" ><img src="sk5.png"></div>
+<div class="col-md-4" ><img src="sk6.png" margin-right="50px"></div><br><br><br>
+<br>
+<div class="container">
+  <img src="sk10.jpeg" class="img-circle" alt="No img" width="200" height="100"> 
+</div>
+<div class="table-responsive">
+<table class="table table-dark table-striped">
+<tr><th>s.no</th>
+<th>Name of the product</th>
+<th>Image </th>
+<th>Uses</th>
+<th>Progress</th></tr><br>
+<tr><td>1</td>
+<td>Face wash</td>
+<td><img src="sk11.jpeg"  width="60px" height="60px"></td>
+<td>To clean your skin</td>
+<td><div class="progress"><div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" style="width:75%;"></div></div></td>
+</tr><br>
+<tr><td>2</td>
+<td>Sunscreems</td>
+<td><img src="sk12.jpeg"  width="60px" height="60px"></td>
+<td>To protect your skin from sun</td>
+<td><div class="progress"><div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style="width:85%;"></div></div></td>
+</tr><br>
+<tr><td>3</td>
+<td>Toners</td>
+<td><img src="sk13.jpeg"  width="60px" height="60px"></td>
+<td>To improve your skin color</td>
+<td><div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:95%;"></div></div></td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
