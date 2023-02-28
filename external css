@@ -1,0 +1,27 @@
+#menu{
+margin-top:40;
+height:50px;
+width:100%;
+background-color:blue;
+}
+#menu ul li {
+display:inline;
+margin-right:50px;
+}
+
+#menu ul li a{
+
+font-size:20; color:white;
+text-decoration:none;
+}
+h1{
+float:right;font-family: algerian;font-size:50;
+
+color:transparent;
+-webkit-text-stroke:1px #000;
+background-image:url(table3.jpg);
+-webkit-background-clip:text;
+background-position:0 0;
+animation:back 20s linear infinite;
+}
+@keyframes back{100%{background-position:2000px 0;}}
