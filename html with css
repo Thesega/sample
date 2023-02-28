@@ -1,0 +1,79 @@
+<html>
+<head><title>table</title>
+<style>
+
+table{text-align:center;
+font-size:30px;
+padding:10px;
+border-spacing:10px;
+}
+h1{font-family: algerian;font-size:83;
+text-align:center;
+color:transparent;
+-webkit-text-stroke:1px #000;
+background-image:url(table3.jpg);
+-webkit-background-clip:text;
+background-position:0 0;
+animation:back 20s linear infinite;
+}
+@keyframes back{100%{background-position:2000px 0;}}
+h3{font-size:50;color:brown;}
+th{background-color:red;}
+li{font-size:40px; color:blue;}
+p{font-size:20;}
+</style>
+</head>
+<body>
+<h1 id="title">7 NCC Camps Every Cadet Must Know About Them</h1>
+<h3>NCC camps</h3>
+<p>NCC helps  in imbibing upon you the qualities of brotherhood, honesty, integrity, secularism, decision making, the training are not only meant for physical development but they also include mental and spiritual training, and thus making an individual a leader in all walks of life.
+<h3>Types of Camps</h3>
+<ol>
+<li><h6>NIC/SNIC</h6>
+</li>
+<li><h6>Leadership Camps</h6>
+</li>
+<li><h6>TSC</h6></li>
+<li><h6>NSC</h6></li>
+<li><h6>VSC</h6></li>
+<li><h6>RCTC</h6></li>
+<li><h6>RDC</h6></li></ol>
+<table border>
+<tr>
+<th>S No</th>
+<th>Course</th>
+<th>No of Course</th>
+<th>Duration</th>
+<th>Auth Str</th>
+<th>Total</th>
+</tr>
+<tr>
+<th>(a)</th>
+<td>PRCN</td>
+<td rowspan="3">02</td>
+<td rowspan="4">90</td>
+<td rowspan="3" >100</td>
+<td rowspan="3">200</td>
+</tr>
+<tr>
+<th>(b)</th>
+<td>Cert Entry Course</td>
+</tr>
+<tr>
+<th>(c)</th>
+<td>Girl Cdt Instr Entry</td>
+</tr>
+<tr>
+<th>(d)</th>
+<td>WTLO Refersher</td>
+<td>01</td>
+<td colspan="2">100</td>
+</tr>
+</table>
+<a href="#title" >top</a><br>
+<img src="table4.jpg">
+<video height="500"  width="500" controls>
+<source src="C:\Users\HI\OneDrive\Desktop\HTML\table clip.mp4"  >
+</video>
+</body>
+</html>
