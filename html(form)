@@ -1,0 +1,36 @@
+<html>
+<head>
+<title> form type</title>
+</head>
+<body>
+<fieldset bgcolor="yellow">
+<legend>personel details</legend>
+<label> Name</label>
+<input type="text"  max length="25" ><br><br>
+Nationality & Date of Birth
+<input type="text"  max length="10" value="Indian">
+<input type="date" max length="5" placeholder="dd/mm/yyyy"><br> <br>
+age 
+<input type="number" max lenght="3"><br><br>
+Father's/Guardian's Name
+<input type="text"  max length="25" ><br><br>
+Mother's Name
+<input type="text"  max length="25" ><br><br>
+Residential Address
+<input type="text"  max length="50" ><br><br>
+Mobile No.
+<input type="number" max lenght="10"><br><br>
+e-mail Id
+<input type="email" max length="15"><br><br>
+Blood Group
+<input type="text"  max length="3" placeholder="O+ve"><br><br>
+Gender
+<input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female<br><br></fieldset>
+<fieldset bgcolor="light blue">
+<legend>oath</legend>
+<input type="checkbox">I ensure all the info are correctand filled with my complete conscience.I also promise that I filled if volunterily
+</fieldset>
+<input type="submit">
+</body>
+</html>
